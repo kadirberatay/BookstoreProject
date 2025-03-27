@@ -1,6 +1,8 @@
-BookStore API
+Database Diagram: ![Image](https://github.com/user-attachments/assets/b557aec0-7bfb-4f18-a229-bc8df831c6a3)
 
-Basit bir kitap satýþ API'sidir. Kitaplar, kategoriler ve sipariþler üzerinde temel CRUD iþlemlerini gerçekleþtirmenizi saðlar.
+Bookstore API
+
+Basit bir kitap satÄ±ÅŸ API'sidir. Kitaplar, kategoriler ve sipariÅŸler Ã¼zerinde temel CRUD iÅŸlemlerini gerÃ§ekleÅŸtirmenizi saÄŸlar.
 
 API Temel Bilgiler
 Base URL: https://localhost:44392/api
@@ -8,44 +10,44 @@ Base URL: https://localhost:44392/api
 
 Book endpoint:
 
-Tüm Kitaplarý Listele: GET /api/books/getall
+TÃ¼m KitaplarÄ± Listele: GET /api/books/getall
 
-Baþlýða Göre Arama: GET /api/books/searchbytitle
+BaÅŸlÄ±ÄŸa GÃ¶re Arama: GET /api/books/searchbytitle
 
-Kategoriye Göre Kitaplar: GET /api/books/getbooksbycategory
+Kategoriye GÃ¶re Kitaplar: GET /api/books/getbooksbycategory
 
-Kitap Detayý: GET /api/books/getbyid
+Kitap DetayÄ±: GET /api/books/getbyid
 
 Kitap Ekle: POST /api/books/add
 
 Kitap Sil: POST /api/book/delete
 
-Kitap Güncelle: /api/book/update
+Kitap GÃ¼ncelle: /api/book/update
 
 
 Category endpoint:
 
-Tüm Kategorileri Listele: GET /api/categories/getall
+TÃ¼m Kategorileri Listele: GET /api/categories/getall
 
-Kategoriye göre ara: GET /api/categories/getbyid
+Kategoriye gÃ¶re ara: GET /api/categories/getbyid
 
 Kategori Ekle: POST /api/categories/add
 
 Kategori Sil: POST /api/categories/delete
 
-Kategori Güncelle: PUT /api/categories/update
+Kategori GÃ¼ncelle: PUT /api/categories/update
 
 
 Order endpoint:
 
-Tüm Sipariþleri Getir: GET /api/orders/getall
+TÃ¼m SipariÅŸleri Getir: GET /api/orders/getall
 
-Sipariþ Detayý: GET /api/orders/getbyid
+SipariÅŸ DetayÄ±: GET /api/orders/getbyid
 
-Sipariþ Ekle: POST /api/orders/add
+SipariÅŸ Ekle: POST /api/orders/add
 
-Sipariþ Sil: POST /api/orders/delete
+SipariÅŸ Sil: POST /api/orders/delete
 
-Sipariþi Güncelle: PUT /api/orders/update
+SipariÅŸi GÃ¼ncelle: PUT /api/orders/update
 
-Sipariþ Durumunu Güncelle: PUT /api/orders/updatestatus
+SipariÅŸ Durumunu GÃ¼ncelle: PUT /api/orders/updatestatus
